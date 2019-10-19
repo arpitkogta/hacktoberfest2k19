@@ -5,3 +5,5 @@ if number == new_number:
     print("The number is an Armstrong number")
 else:
     print("It is not an Armstrong Number")
+    print("this is arpit")
+    
