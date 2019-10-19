@@ -11,8 +11,8 @@ Example: given list -> [1,2,3,4,5]
 
 nums = [3, 5, 2, 9, 101, 333, 4]
 
-while len(nums):
+#while len(nums): line not needed
     for i in range(len(nums)):
-        if i%2==0:
+        if i%2!=0:  
             del nums[i]
     print(nums)
